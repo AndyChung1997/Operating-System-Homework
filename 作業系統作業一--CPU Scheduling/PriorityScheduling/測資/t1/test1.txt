@@ -1,0 +1,39 @@
+-------答案-------
+second 0~1 process P5
+second 1~2 process P5
+second 2~3 process P5
+second 3~4 process P5
+second 4~5 process P5
+second 5~6 process P5
+second 6~7 process P5
+====================
+second 7~8 process P4
+second 8~9 process P4
+second 9~10 process P4
+second 10~11 process P4
+second 11~12 process P4
+====================
+second 12~13 process P6
+second 13~14 process P6
+====================
+second 14~15 process P2
+second 15~16 process P2
+second 16~17 process P2
+second 17~18 process P2
+second 18~19 process P2
+second 19~20 process P2
+====================
+second 20~21 process P7
+====================
+second 21~22 process P3
+second 22~23 process P3
+second 23~24 process P3
+second 24~25 process P3
+second 25~26 process P3
+====================
+second 26~27 process P1
+second 27~28 process P1
+second 28~29 process P1
+second 29~30 process P1
+second 30~31 process P1
+second 31~32 process P1

@@ -1,0 +1,46 @@
+* Priority Scheduling(preemptive)
+    
+* Process Arrival time Burst time  Priority
+  P1      0            2           2
+  P2      7	           3           9
+  P3      1            5           7
+  P4      2            2           5
+  P5      3            3           3  
+  P6      5            1           1
+* Ans:
+      P1 0~2
+      P4 2~3
+      p5 3~5
+      p6 5~6
+      p5 6~8
+      p4 8~9
+      p3 9~14
+      p2 14~17
+
+input format:
+{"P1":{"Order":1,"ArrivalTime":0,"BurstTime":2,"Priority":2},"P2":{"Order":2,"ArrivalTime":7,"BurstTime":3,"Priority":9},"P3":{"Order":3,"ArrivalTime":1,"BurstTime":5,"Priority":7},"P4":{"Order":4,"ArrivalTime":2,"BurstTime":2,"Priority":5},"P5":{"Order":5,"ArrivalTime":3,"BurstTime":3,"Priority":3},"P6":{"Order":6,"ArrivalTime":5,"BurstTime":1,"Priority":1}}
+
+output format in command line:
+second 0~1 process P1
+second 1~2 process P1
+====================
+second 2~3 process P4
+====================
+second 3~4 process P5
+second 4~5 process P5
+====================
+second 5~6 process P6
+====================
+second 6~7 process P5
+====================
+second 7~8 process P4
+====================
+second 8~9 process P3
+second 9~10 process P3
+second 10~11 process P3
+second 11~12 process P3
+second 12~13 process P3
+====================
+second 13~14 process P2
+second 14~15 process P2
+second 15~16 process P2

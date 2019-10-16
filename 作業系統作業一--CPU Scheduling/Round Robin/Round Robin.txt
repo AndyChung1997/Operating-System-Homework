@@ -1,0 +1,53 @@
+
+
+
+* Round Robin 
+    
+* Process BurstTime
+  P1      8            
+  P2      4	           
+  P3      12            
+  Quantum = 4
+
+* Ans:
+      P3 0 ~ 4
+      P1 4 ~ 8
+      P2 8 ~ 12
+      P3 12~16
+      P1 16~20
+      P3 20~24
+
+input format:
+{"BurstTime":{"p1":8,"p2":4,"p3":12},"Order":["p3","p1","p2"],"Quantum":4}
+
+
+output format in command line:
+second 0~1 process p3
+second 1~2 process p3
+second 2~3 process p3
+second 3~4 process p3
+====================
+second 4~5 process p1
+second 5~6 process p1
+second 6~7 process p1
+second 7~8 process p1
+====================
+second 8~9 process p2
+second 9~10 process p2
+second 10~11 process p2
+second 11~12 process p2
+====================
+second 12~13 process p3
+second 13~14 process p3
+second 14~15 process p3
+second 15~16 process p3
+====================
+second 16~17 process p1
+second 17~18 process p1
+second 18~19 process p1
+second 19~20 process p1
+====================
+second 20~21 process p3
+second 21~22 process p3
+second 22~23 process p3
+second 23~24 process p3

@@ -1,0 +1,41 @@
+Shortest-Job First(preemptive) 
+
+Question:
+	Print the execution of these processes and execution times
+    
+* Process  ArrivalTime  BurstTime
+  	P1      	2         	6
+	P2      	5        	2
+ 	P3      	1         	8
+ 	P4			0			3
+ 	P5			4			4
+
+* Ans:
+      P4 0 ~ 3
+      P1 3 ~ 4
+      P5 4 ~ 5
+      P2 5 ~ 7
+      P5 7 ~ 10
+      p1 10 ~ 15
+      p3 15 ~ 23
+
+
+Input Read: {"P1":{"order":1,"ArrivalTime":2,"BurstTime":6},
+			 "P2":{"order":2,"ArrivalTime":5,"BurstTime":2},
+			 "P3":{"order":3,"ArrivalTime":1,"BurstTime":8},
+			 "P4":{"order":4,"ArrivalTime":0,"BurstTime":3},
+			 "P5":{"order":5,"ArrivalTime":4,"BurstTime":4}}
+
+Command Line: Second:0~3, Process:P4
+			  ===================
+			  Second:3~4, Process:P1
+			  ===================
+			  Second:4~5, Process:P5
+			  ===================
+			  Second:5~7, Process:P2
+			  ===================
+			  Second:7~10, Process:P5
+			  ===================
+			  Second:10~15, Process:P1
+			  ===================
+			  Second:15~23, Process:P3

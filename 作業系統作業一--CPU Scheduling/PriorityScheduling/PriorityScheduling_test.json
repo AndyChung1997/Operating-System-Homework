@@ -1,0 +1,1 @@
+{"P1":{"Order":1,"ArrivalTime":3,"BurstTime":5,"Priority":1},"P2":{"Order":2,"ArrivalTime":0,"BurstTime":5,"Priority":6},"P3":{"Order":3,"ArrivalTime":8,"BurstTime":3,"Priority":8}}
